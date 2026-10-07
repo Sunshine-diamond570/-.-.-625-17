@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700"><title>Балерина</title><defs><radialGradient id="g" cx="50%" cy="80%" r="60%"><stop offset="0" stop-color="#b8456b"/><stop offset="1" stop-color="#4a1430"/></radialGradient></defs><rect width="600" height="700" fill="url(#g)"/><rect x="0" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="40" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="80" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="120" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="160" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="200" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="240" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="280" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="320" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="360" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="400" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="440" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="480" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="520" y="0" width="14" height="700" fill="#000" opacity=".08"/><rect x="560" y="0" width="14" height="700" fill="#000" opacity=".08"/><ellipse cx="300" cy="560" rx="220" ry="40" fill="#f6efe6" opacity=".12"/><g fill="#f6efe6" stroke="#f6efe6">
+<ellipse cx="300" cy="566" rx="70" ry="8" fill="#000" opacity=".25" stroke="none"/>
+<circle cx="300" cy="170" r="22" stroke="none"/><circle cx="313" cy="151" r="10" stroke="none"/>
+<rect x="294" y="188" width="12" height="20" stroke="none"/>
+<path d="M281 208 Q300 199 319 208 L311 292 L289 292 Z" stroke="none"/>
+<path d="M285 214 Q236 160 274 108 Q290 90 300 92" fill="none" stroke-width="9" stroke-linecap="round"/>
+<path d="M315 214 Q364 160 326 108 Q310 90 300 92" fill="none" stroke-width="9" stroke-linecap="round"/>
+<path d="M190 300 L205 288 L222 300 L240 286 L258 300 L276 284 L300 298 L324 284 L342 300 L360 286 L378 300 L395 288 L410 300 Q300 322 190 300 Z" stroke="none"/>
+<ellipse cx="300" cy="296" rx="112" ry="12" stroke="none" opacity=".85"/>
+<path d="M291 306 L308 306 L304 450 L302 560 L297 560 L295 450 Z" stroke="none"/>
+<path d="M303 298 L314 312 L478 262 L472 250 Z" stroke="none"/>
+</g></svg>

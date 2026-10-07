@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><title>Балетная сцена</title><rect width="800" height="500" fill="#2a1a22"/><path d="M0 0 H800 V70 Q600 110 400 80 Q200 110 0 70 Z" fill="#8a2246"/><path d="M0 0 H150 Q120 250 170 430 H0 Z" fill="#8a2246"/><path d="M800 0 H650 Q680 250 630 430 H800 Z" fill="#8a2246"/><path d="M30 0 Q15 250 50 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M70 0 Q55 250 90 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M110 0 Q95 250 130 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M690 0 Q705 250 670 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M730 0 Q745 250 710 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M770 0 Q785 250 750 430" stroke="#000" opacity=".2" stroke-width="6" fill="none"/><path d="M0 430 H800 V500 H0 Z" fill="#6b4a2a"/><path d="M340 80 L230 440 H570 L460 80 Z" fill="#f6efe6" opacity=".10"/><g transform="translate(278 140) scale(.48)"><g fill="#f6efe6" stroke="#f6efe6">
+<ellipse cx="300" cy="566" rx="70" ry="8" fill="#000" opacity=".25" stroke="none"/>
+<circle cx="300" cy="170" r="22" stroke="none"/><circle cx="313" cy="151" r="10" stroke="none"/>
+<rect x="294" y="188" width="12" height="20" stroke="none"/>
+<path d="M281 208 Q300 199 319 208 L311 292 L289 292 Z" stroke="none"/>
+<path d="M285 214 Q236 160 274 108 Q290 90 300 92" fill="none" stroke-width="9" stroke-linecap="round"/>
+<path d="M315 214 Q364 160 326 108 Q310 90 300 92" fill="none" stroke-width="9" stroke-linecap="round"/>
+<path d="M190 300 L205 288 L222 300 L240 286 L258 300 L276 284 L300 298 L324 284 L342 300 L360 286 L378 300 L395 288 L410 300 Q300 322 190 300 Z" stroke="none"/>
+<ellipse cx="300" cy="296" rx="112" ry="12" stroke="none" opacity=".85"/>
+<path d="M291 306 L308 306 L304 450 L302 560 L297 560 L295 450 Z" stroke="none"/>
+<path d="M303 298 L314 312 L478 262 L472 250 Z" stroke="none"/>
+</g></g></svg>

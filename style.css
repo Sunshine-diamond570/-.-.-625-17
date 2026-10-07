@@ -1,0 +1,363 @@
+/* ==========================================================
+   Сайт «Мир балета»
+   Автор: Топорова В. В., РИСО ЦС, группа 625, вариант 17
+   ========================================================== */
+
+/* ---------- Стили варианта 17 (обязательные) ---------- */
+
+/* Стиль для заголовка: Courier New 14, Ж, контур, 1 уровень,
+   без переносов, всегда с новой страницы, выравнивание по левому краю,
+   интервал после 14 пт */
+h1.Топорова_РИСОЦС-625_Гл {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+  font-weight: bold;
+  color: transparent;                    /* контур: буквы без заливки */
+  -webkit-text-stroke: 1.4px #2a0818;  /* контур букв (толще и темнее для читаемости) */
+  text-shadow: none;
+  hyphens: none;                         /* без переносов */
+  -webkit-hyphens: none;
+  page-break-before: always;             /* всегда с новой страницы */
+  break-before: page;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 14pt;                   /* интервал после 14 пт */
+  letter-spacing: 0.12em;
+}
+
+/* Стиль для подзаголовка: Arial 14, К, малые прописные, 2 уровень,
+   выравнивание по левому краю, интервал после 12 пт,
+   межстрочный интервал 20 пт точно */
+h2.Топорова_РИСОЦС-625_Подзаг {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: italic;
+  font-variant: small-caps;              /* малые прописные */
+  font-weight: normal;
+  text-align: left;
+  margin-top: 22pt;
+  margin-bottom: 12pt;                   /* интервал после 12 пт */
+  line-height: 20pt;                     /* межстрочный 20 пт точно */
+  color: #4a1430;
+}
+
+/* Стиль основного текста: Courier New 14, выравнивание по ширине,
+   красная строка 1,5 см, межстрочный интервал 1,5 */
+p.Топорова_РИСОЦС-625_Оснтек {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+  text-align: justify;
+  text-indent: 1.5cm;                    /* красная строка 1,5 см */
+  line-height: 1.5;                      /* полуторный интервал */
+  margin: 0 0 8pt 0;
+  color: #2a1a22;
+}
+
+/* ---------- Общее оформление страниц ---------- */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f6efe6;
+  color: #2a1a22;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+}
+
+a { color: #8a2246; }
+a:hover { color: #4a1430; }
+
+.Топорова_РИСОЦС-625_Шапка {
+  background: #4a1430;
+  color: #f6efe6;
+  padding: 18px 24px 0;
+}
+
+.Топорова_РИСОЦС-625_Логотип {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  margin: 0 0 4px;
+}
+
+.Топорова_РИСОЦС-625_Логотип a { color: #f6efe6; text-decoration: none; }
+
+.Топорова_РИСОЦС-625_Девиз {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #e8c9b5;
+  margin: 0 0 14px;
+}
+
+.Топорова_РИСОЦС-625_Меню {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Топорова_РИСОЦС-625_Меню a {
+  display: block;
+  padding: 12px 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #f6efe6;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.Топорова_РИСОЦС-625_Меню a:hover,
+.Топорова_РИСОЦС-625_Меню a.active { border-bottom-color: #e8b04b; }
+
+.Топорова_РИСОЦС-625_Содержимое {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 24px 48px;
+}
+
+/* Внутренняя навигация по якорям */
+.Топорова_РИСОЦС-625_Якоря {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #fffaf3;
+  border: 1px solid #dcc8b4;
+  padding: 12px 16px;
+  margin: 0 0 24px;
+}
+
+.Топорова_РИСОЦС-625_Якоря a { margin-right: 6px; }
+
+.Топорова_РИСОЦС-625_Наверх {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: right;
+  margin: 6px 0 18px;
+}
+
+/* Таблицы */
+table.Топорова_РИСОЦС-625_Таблица {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #fffaf3;
+}
+
+.Топорова_РИСОЦС-625_Таблица caption {
+  font-style: italic;
+  text-align: left;
+  padding-bottom: 8px;
+  color: #6b4a58;
+}
+
+.Топорова_РИСОЦС-625_Таблица th {
+  background: #4a1430;
+  color: #f6efe6;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+.Топорова_РИСОЦС-625_Таблица td {
+  padding: 9px 12px;
+  border-bottom: 1px solid #dcc8b4;
+  vertical-align: top;
+}
+
+.Топорова_РИСОЦС-625_Таблица tr:nth-child(even) td { background: #f8eee3; }
+
+.Топорова_РИСОЦС-625_Прокрутка { overflow-x: auto; }
+
+/* Списки */
+.Топорова_РИСОЦС-625_Список {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+  line-height: 1.6;
+  margin: 0 0 16px;
+  padding-left: 2.2em;
+}
+
+/* Иллюстрации */
+figure.Топорова_РИСОЦС-625_Рисунок {
+  margin: 12px 0 24px;
+  text-align: center;
+}
+
+.Топорова_РИСОЦС-625_Рисунок img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #dcc8b4;
+  background: #fffaf3;
+}
+
+.Топорова_РИСОЦС-625_Рисунок figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #6b4a58;
+  margin-top: 6px;
+}
+
+/* Карточки (балерины, театры) */
+.Топорова_РИСОЦС-625_Карточки {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 8px 0 28px;
+}
+
+.Топорова_РИСОЦС-625_Карточка {
+  background: #fffaf3;
+  border: 1px solid #dcc8b4;
+  padding: 16px;
+}
+
+.Топорова_РИСОЦС-625_Карточка img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Топорова_РИСОЦС-625_Карточка h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  margin: 0 0 4px;
+  color: #4a1430;
+}
+
+.Топорова_РИСОЦС-625_Карточка p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.Топорова_РИСОЦС-625_Даты {
+  color: #6b4a58;
+  font-style: italic;
+}
+
+/* Фотографии в карточках: одинаковые пропорции */
+.Топорова_РИСОЦС-625_Карточка img.Топорова_РИСОЦС-625_Фото-портрет {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+}
+
+.Топорова_РИСОЦС-625_Карточка img.Топорова_РИСОЦС-625_Фото-здание {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+/* Главный баннер */
+.Топорова_РИСОЦС-625_Баннер {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.Топорова_РИСОЦС-625_Баннер img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Топорова_РИСОЦС-625_Кнопка {
+  display: inline-block;
+  min-height: 44px;
+  padding: 12px 22px;
+  background: #8a2246;
+  color: #fffaf3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.Топорова_РИСОЦС-625_Кнопка:hover { background: #4a1430; color: #fffaf3; }
+
+/* Подвал */
+.Топорова_РИСОЦС-625_Подвал {
+  background: #2a1a22;
+  color: #e8dccf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+.Топорова_РИСОЦС-625_Подвал a { color: #e8b04b; }
+
+.Топорова_РИСОЦС-625_Подвал-внутри {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Карта (image map) */
+.Топорова_РИСОЦС-625_Карта {
+  overflow-x: auto;
+  text-align: center;
+  margin: 12px 0 8px;
+}
+
+.Топорова_РИСОЦС-625_Карта img {
+  border: 1px solid #dcc8b4;
+  max-width: 100%;      /* карта сжимается на телефоне, области пересчитывает karta.js */
+  height: auto;
+}
+
+/* Галерея */
+.Топорова_РИСОЦС-625_Галерея {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.Топорова_РИСОЦС-625_Галерея figure { margin: 0; }
+
+.Топорова_РИСОЦС-625_Галерея img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  background: #2a1a22;
+  border: 1px solid #dcc8b4;
+  display: block;
+}
+
+.Топорова_РИСОЦС-625_Галерея figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+/* Подсказка под картой */
+.Топорова_РИСОЦС-625_Подсказка {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #6b4a58;
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+/* Телефон */
+@media (max-width: 720px) {
+  .Топорова_РИСОЦС-625_Баннер { grid-template-columns: 1fr; }
+  .Топорова_РИСОЦС-625_Содержимое { padding: 24px 16px 40px; }
+  p.Топорова_РИСОЦС-625_Оснтек { font-size: 13pt; }
+}
+
+/* Печать: заголовок 1 уровня всегда с новой страницы */
+@media print {
+  .Топорова_РИСОЦС-625_Шапка, .Топорова_РИСОЦС-625_Подвал { display: none; }
+}
